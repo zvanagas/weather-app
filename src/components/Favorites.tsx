@@ -14,7 +14,7 @@ export default ({ onItemClicked }: FavoritesProps) => {
 
     return (
         <div className="Favorites">
-            <span className="title">Favorites</span>
+            <span className="Title">Favorites</span>
             {favorites.map((item, index) => <FavoriteItem city={item} onItemClicked={onItemClicked} key={index}></FavoriteItem>)}
         </div>
     );

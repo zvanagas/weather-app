@@ -2,20 +2,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.Content {
-    display: flex;
-    flex-wrap: wrap;
-}
-.ForecastItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #dfe1e5;
-    border-radius: 8px;
-    margin: .4rem;
-    padding: .6rem 1.8rem;
-}
-.Text {
-    color: #bababa;
+    
+    .Content {
+        display: flex;
+        flex-wrap: wrap;
+
+        .ForecastItem {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #dfe1e5;
+            border-radius: 8px;
+            margin: .4rem;
+            padding: .6rem 1.8rem;
+    
+            .Text {
+                color: #bababa;
+            }
+        }
+    }
 }
