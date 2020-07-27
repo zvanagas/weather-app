@@ -1,0 +1,28 @@
+.Form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .Input {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid;
+        height: 100%;
+        font-size: 1rem;
+        color: #333333;
+    }
+    .Button {
+        background-color: #ffd34d;
+        border: 1px #ffc000 solid;
+        padding: .4rem .6rem;
+        color: #333333;
+        cursor: pointer;
+        margin-left: .5rem;
+        transition: .2s linear opacity;
+
+        &:disabled {
+            opacity: .6;
+            cursor: not-allowed;
+        }
+    }
+}

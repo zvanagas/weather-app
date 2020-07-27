@@ -1,0 +1,26 @@
+.Favorites {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+
+    .title {
+        font-weight: bold;
+    }
+
+    .Button {
+        margin-top: .4rem;
+        border: none;
+        border-bottom: 1px solid;
+        background: none;
+        cursor: pointer;
+        padding: 0 .4rem;
+        font-size: 1rem;
+        transition: .2s color linear;
+
+        &:hover {
+            color: #ffc000;
+        }
+    }
+}
