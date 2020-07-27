@@ -3,13 +3,6 @@ export interface WeatherApiModel {
     daily: ForecastItem[]
 }
 
-export interface CoordinatesApiModel {
-    coord: {
-        lon: number;
-        lat: number;
-    }
-}
-
 export interface CurrentWeather {
     temp: number;
     feels_like: number;

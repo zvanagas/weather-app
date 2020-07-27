@@ -1,4 +1,4 @@
-import { CoordinatesApiModel } from './../models/weather';
+import { CoordinatesApiModel } from './../models/coordinates';
 import { API_KEY } from '../config';
 export const getCoordinates = async(city: string) => {
     const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`);
